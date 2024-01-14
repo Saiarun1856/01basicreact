@@ -14,10 +14,6 @@ function App() {
       setCounter(counter)
      } 
    } 
-    if(counter>0){
-      counter = counter - 1
-
-    }
   return (
     <>
       <h1>chai aur code</h1>
@@ -29,5 +25,4 @@ function App() {
     </>
   )
 }
-
 export default App
