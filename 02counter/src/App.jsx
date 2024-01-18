@@ -3,7 +3,7 @@ import { useState } from 'react'
 function App() {
   let [counter,setCounter] = useState(15)
   const increase = ()=>{
-    if(counter <= 20){
+    if(counter < 20){
     counter = counter+1
     setCounter(counter)
     }
